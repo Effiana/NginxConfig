@@ -1,0 +1,42 @@
+{
+    "name": "effiana/nginx-config",
+    "type": "library",
+    "description": "Nginx configuration files processor.",
+    "keywords": [
+        "nginx",
+        "conf",
+        "conf file",
+        "config",
+        "config file",
+        "configuration",
+        "configuration file",
+        "processor",
+        "parser",
+        "create",
+        "creator",
+        "manager",
+        "php"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name":   "Dominik Labudzinski",
+            "email":  "dominik@labudzinski.com"
+        },
+        {
+            "name": "Roman Piták",
+            "email": "roman@pitak.net",
+            "homepage": "http://pitak.net",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Effiana\\Nginx\\": "src/"
+        }
+    }
+}
